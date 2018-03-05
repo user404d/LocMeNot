@@ -1,31 +1,12 @@
 package com.djsg38.locationprivacyapp;
 
 import android.app.Notification;
-import android.app.PendingIntent;
 import android.app.Service;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
-import android.location.Location;
-import android.location.LocationManager;
 import android.os.Binder;
-import android.os.Bundle;
-import android.os.Handler;
 import android.os.IBinder;
-import android.support.annotation.Nullable;
-import android.support.v7.app.NotificationCompat;
 import android.util.Log;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationListener;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationServices;
-
-import java.util.concurrent.ExecutionException;
 
 public class AnonymizationService extends Service {
 

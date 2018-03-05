@@ -1,7 +1,6 @@
 package com.djsg38.locationprivacyapp;
 
 import android.os.AsyncTask;
-import android.os.Bundle;
 import android.util.Log;
 
 import org.xmlpull.v1.XmlPullParser;

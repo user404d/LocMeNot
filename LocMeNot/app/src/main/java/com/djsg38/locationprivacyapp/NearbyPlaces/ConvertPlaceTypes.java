@@ -1,6 +1,6 @@
 package com.djsg38.locationprivacyapp.NearbyPlaces;
 
-import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.PlaceReport;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
@@ -159,7 +159,7 @@ public class ConvertPlaceTypes {
     }
 
     private String getPlaceTypeForValue(int value) throws IllegalAccessException {
-        Field[] fields = Place.class.getDeclaredFields();
+        Field[] fields = PlaceReport.class.getFields();
         String name;
         for(Field field : fields) {
             name = field.getName().toLowerCase();

@@ -45,7 +45,7 @@ public class MobilityTrace extends AppCompatActivity implements OnMapReadyCallba
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        realm.where(Session.class).findFirst().removeChangeListeners();
+        realm.where(Session.class).findFirst().removeAllChangeListeners();
         realm.close();
         realm = null;
     }

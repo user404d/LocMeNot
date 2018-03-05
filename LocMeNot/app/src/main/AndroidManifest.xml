@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:name="android.support.multidex.MultiDexApplication"
     package="com.djsg38.locationprivacyapp">
 
     <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
@@ -33,7 +32,7 @@
                 android:value="com.djsg38.locationprivacyapp.MainActivity" />
         </activity>
         <activity
-            android:name=".preferenceUI.PreferenceList"
+            android:name=".PreferenceUI.PreferenceList"
             android:label="@string/title_activity_preference_list"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
