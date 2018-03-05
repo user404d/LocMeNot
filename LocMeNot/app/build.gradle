@@ -5,7 +5,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "com.djsg38.locationprivacyapp"
+        applicationId "com.locmenot.app"
         minSdkVersion 24
         targetSdkVersion 24
         versionCode 1

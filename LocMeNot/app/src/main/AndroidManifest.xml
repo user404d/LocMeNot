@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.djsg38.locationprivacyapp">
+    package="com.locmenot.app">
 
     <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -29,7 +29,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.djsg38.locationprivacyapp.MainActivity" />
+                android:value="com.locmenot.app.MainActivity" />
         </activity>
         <activity
             android:name=".PreferenceUI.PreferenceList"
@@ -38,7 +38,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.djsg38.locationprivacyapp.MainActivity" />
+                android:value="com.locmenot.app.MainActivity" />
         </activity>
         <activity android:name=".MobilityTrace"
             android:label="@string/title_activity_mobility_trace"
@@ -49,7 +49,7 @@
                 android:value="AIzaSyA_OTzsVFv64L7iuozp8dtu2WlsLv389F8" />
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.djsg38.locationprivacyapp.MainActivity" />
+                android:value="com.locmenot.app.MainActivity" />
         </activity>
 
 
