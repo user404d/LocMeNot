@@ -1,4 +1,3 @@
-# ResearchApp
-# Authors: Doug Steiert & Quincy Conduff
+# LocMeNot
 
-# Location Privacy App 
+### Authors: Doug Steiert & Quincy Conduff
